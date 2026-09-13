@@ -1,0 +1,51 @@
+{
+  "name": "envforge",
+  "version": "0.1.0",
+  "description": "Zero-config local SaaS mock engine and environment synthesizer. Boot any repo locally without real API keys or paid accounts.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": {
+    "envforge": "dist/bin/envforge.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "mock",
+    "env",
+    "dotenv",
+    "openai",
+    "stripe",
+    "resend",
+    "local-dev",
+    "saas",
+    "testing",
+    "cli",
+    "dx"
+  ],
+  "author": "Fibilişim <coldbira@gmail.com> (https://github.com/Fibilisim-Tekno)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fibilisim-Tekno/envforge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fibilisim-Tekno/envforge/issues"
+  },
+  "homepage": "https://github.com/Fibilisim-Tekno/envforge#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
