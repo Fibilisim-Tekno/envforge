@@ -1,6 +1,9 @@
 {
-  "name": "envforge",
+  "name": "@fibilisim/envforge",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Zero-config local SaaS mock engine and environment synthesizer. Boot any repo locally without real API keys or paid accounts.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",

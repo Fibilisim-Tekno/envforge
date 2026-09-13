@@ -8,7 +8,7 @@
 <br />
 
 ```text
-  5+ SAAS ENGINES   │   <50ms STARTUP   │   ZERO RUNTIME DEPS   │   NPM: envforge   │   MIT LICENSE
+  5+ SAAS ENGINES   │   <50ms STARTUP   │   ZERO RUNTIME DEPS   │   NPM: @fibilisim/envforge   │   MIT LICENSE
 ```
 
 <br />
@@ -17,7 +17,7 @@
 
 <br />
 
-[![npm version](https://img.shields.io/npm/v/envforge?color=blue&style=flat-square)](https://www.npmjs.com/package/envforge)
+[![npm version](https://img.shields.io/npm/v/@fibilisim/envforge?color=blue&style=flat-square)](https://www.npmjs.com/package/@fibilisim/envforge)
 [![CI](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml/badge.svg)](https://github.com/Fibilisim-Tekno/envforge/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/Fibilisim-Tekno/envforge?style=flat-square)](https://github.com/Fibilisim-Tekno/envforge/blob/main/LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/runtime%20dependencies-0-brightgreen?style=flat-square)](https://www.npmjs.com/package/envforge)
